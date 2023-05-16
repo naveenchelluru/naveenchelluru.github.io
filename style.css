@@ -1,0 +1,125 @@
+*{
+    padding :0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+label a{
+    color:rgba(240, 18, 18, 0.685);
+    font-size: 20px;
+    font-weight: 500;
+   text-decoration: underline black ;
+    cursor: pointer;
+   
+}
+p{
+    line-height: 1.3;
+    padding-top: 20px;
+}
+.firsth{
+   font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin:50px 10% 0 15%;
+    height: auto;
+}
+.container{
+    margin:50px 13% 0 15%;
+}
+
+p{
+font-size:20px ;
+font-weight: 500;
+color: #333;
+}
+h1{
+    color:rgba(20, 17, 17, 0.733)
+}
+.large_logo{
+    font-size: 50px;
+}
+
+.logo{
+    float :left;
+    cursor: pointer;
+    padding:40px 20px  20px  10px;
+    color:rgb(5, 36, 5);
+    position: fixed;
+}
+.search{
+    float:right;
+    padding:40px 80px  20px  80px;
+}
+.onep{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    padding: 40px 10% 0 10%;    
+    height: auto;
+}
+.twop{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    padding: 40px 10% 0 10%;    
+    height: auto;
+}
+p+p{
+    margin-bottom: 20px;
+}
+
+.large-navbar{
+    height:100px;
+    transition: all 1s ease-in-out;
+    font-size: 50px;
+}
+.imgone{
+    height:150px;
+    background-image:url('greek_horses.avif') ;
+    margin:20px;
+    padding:0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .logo{
+        padding:30px 20px  20px  20px;
+    }
+    .search{
+        display: none;
+    }
+    .imgone{
+        height:100px;
+        margin:0;
+        padding:0;
+    }
+    .container{
+        padding: 0;
+        margin:0;
+    }
+  }
+  .colorun{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 100% 2px; /* Adjust the thickness of the underline */
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .underp{
+    border-left: 5px solid #e2d030;
+    padding :10px;
+    font-size: 25px;
+    word-spacing: 1.5;
+    font-style: oblique;
+  }
+  .deeper,.overview,.simple{
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
